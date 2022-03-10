@@ -18,8 +18,8 @@ class Solution:
         while(second.next != None):
             second = second.next
             first = first.next
-        while second.next is not None:
-            second = second.next
-            first = first.next
+        # while second.next is not None:
+        #     second = second.next
+        #     first = first.next
         first.next = first.next.next
         return head
