@@ -6,7 +6,7 @@ class Solution:
         
         
         low =1
-        high=x//2
+        high=x
         
         while high>=low:
             
